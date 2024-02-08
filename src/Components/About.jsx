@@ -19,13 +19,13 @@ export default function About() {
                     <div className="text">
                         <h1>HI!</h1>
                         <p>
-                            I'm Dennis, a vis-dev artist based in SoCal.
+                            I'm Dennis, a vis-dev artist based in NYC.
                             <br />
                             <br />
                             I’m currently working as a background designer at Marvel Studios.
                             <br />
                             <br />
-                            If you think I might be a good fit for your project, or if you’d <br />like to view my Professional Work please email me at <br /> <b>aaliceyyang@gmail.com!</b>
+                            If you think I might be a good fit for your project, or if you’d <br />like to view my Professional Work please email me at <br /> <b>###@gmail.com!</b>
                         </p>
                     </div>
                 </div>
@@ -42,11 +42,6 @@ export default function About() {
                 <a href="https://www.instagram.com/your-instagram" target="_blank" rel="noopener noreferrer">
                     <IconButton sx={{ color: 'black', }}>
                         <Instagram />
-                    </IconButton>
-                </a>
-                <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
-                    <IconButton sx={{ color: 'black', }}>
-                        <LinkedIn />
                     </IconButton>
                 </a>
             </div>
