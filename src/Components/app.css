@@ -1,0 +1,92 @@
+/*
+Title
+*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container h1,
+.container p {
+    margin: 0;
+
+}
+
+.container h1 {
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.container p {
+    color: #607272;
+}
+
+
+/*
+AllLink Style
+*/
+.two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+
+/*
+AllButton Style
+*/
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.pill-button {
+    border-radius: 20px;
+    /* Adjust the value as needed */
+    padding: 8px 16px;
+    /* Adjust padding as needed */
+    margin-right: 8px;
+}
+
+/*
+imglayout stlye
+*/
+
+.containImg {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.grid-col-2 {
+    grid-column: span 2;
+}
+
+
+.imgGrid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.imgGrid img {
+    max-width: 100%;
+
+}
+
+.match-height {
+    height: 100%;
+}
